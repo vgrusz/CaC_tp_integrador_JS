@@ -1,0 +1,132 @@
+.formatoEspecifico01 {
+  font-weight: bold;
+}
+
+.formatoEspecifico02 {
+  width: 90%;
+}
+
+.formatoEspecifico03 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.formatoEspecifico04 {
+  width: 100vw;
+}
+
+.divOscurecedor {
+  width: 100vw;
+  color: whitesmoke;
+  position: absolute;
+  font-weight: bolder;
+  font-size: large;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 1024px) {
+  .verticalizaAlAchicar {
+    flex-direction: row;
+  }
+
+  .altoVariable {
+    height: 45vw;
+  }
+
+  .margenIzquierdoYSuperiorVariable {
+    font-size: medium;
+    margin-top: 10vw;
+    margin-left: 40vw;
+    height: 45vw;
+    width: 50vw;
+  }
+  .apilable {
+    display: flex;
+    font-size: medium;
+  }
+
+  .apilableAnchoVariable {
+    width: 50vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .verticalizaAlAchicar {
+    flex-direction: row;
+  }
+
+  .altoVariable {
+    height: 45vw;
+  }
+
+  .margenIzquierdoYSuperiorVariable {
+    font-size: medium;
+    margin-top: 10vw;
+    margin-left: 40vw;
+    height: 45vw;
+    width: 60vw;
+  }
+
+  .apilable {
+    display: flex;
+    font-size: small;
+  }
+
+  .apilableAnchoVariable {
+    width: 50vw;
+    font-size: smaller;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .verticalizaAlAchicar {
+    flex-direction: column;
+  }
+  .altoVariable {
+    height: 80vw;
+  }
+
+  .margenIzquierdoYSuperiorVariable {
+    font-size: medium;
+    margin-top: 5vw;
+    margin-left: 20vw;
+    height: 80vw;
+    width: 80vw;
+  }
+  .apilable {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+    font-size: small;
+  }
+  .apilableAnchoVariable {
+    width: 100vw;
+  }
+}
+
+@media (max-width: 575px) {
+  .verticalizaAlAchicar {
+    flex-direction: column;
+  }
+
+  .altoVariable {
+    height: 120vw;
+  }
+
+  .margenIzquierdoYSuperiorVariable {
+    font-size: small;
+    margin-top: 0vw;
+    height: 120vw;
+    width: 100vw;
+  }
+  .apilable {
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .apilableAnchoVariable {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/particular.css" />
+    <script src="./js/main.js"></script>
+    <title>TP integrador JS CaC</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+      <div class="container-fluid">
+        <img src="./images/codoacodo.png" alt="Logo de codo a codo" width="30" height="24" />
+
+        <a class="navbar-brand" href="#">Conf Bs As</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Conviértete en orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success">Comprar tickets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ************************************************************************************* -->
+    <section class="text-center">
+      <div class="container card-group mt-5 mb-5">
+        <!--  -->
+        <div class="card mx-4 border-primary border-2 border">
+          <div class="card-body">
+            <h5 class="card-title">Estudiante</h5>
+            <p class="card-text">
+              Tiene un descuento de
+              <br />
+              <br />
+              80 %
+              <br />
+              <br />
+              * Presentar documentación
+            </p>
+          </div>
+        </div>
+
+        <div class="card mx-4 p-1 border-primary border-2 border">
+          <div class="card-body">
+            <h5 class="card-title">Traineé</h5>
+            <p class="card-text">
+              Tiene un descuento de
+              <br />
+              <br />
+              50 %
+              <br />
+              <br />
+              * Presentar documentación
+            </p>
+          </div>
+        </div>
+
+        <div class="card mx-4 border-danger border-2 border">
+          <div class="card-body">
+            <h5 class="card-title">Junior</h5>
+            <p class="card-text">
+              Tiene un descuento de
+              <br />
+              <br />
+              15 %
+              <br />
+              <br />
+              * Presentar documentación
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--end card container  -->
+    </section>
+
+    <!-- ************************************************************************************* -->
+    <section class="text-center">
+      <p>Venta</p>
+      <h3>Valor de ticket $ 200</h3>
+    </section>
+    <!-- ************************************************************************************* -->
+    <footer class="bg-light text-center text-lg-start">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <form action="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-6 col-12 mb-4 mb-md-0">
+              <!-- nombre input -->
+              <div class="form-outline mb-4">
+                <input type="text" class="form-control" placeholder="Nombre" />
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-6 col-12 mb-4 mb-md-0">
+              <!-- nombre input -->
+              <div class="form-outline mb-4">
+                <input type="text" class="form-control" placeholder="Apellido" />
+              </div>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-12 col-12 mb-4 mb-md-0">
+              <!-- nombre input -->
+              <div class="form-outline mb-4">
+                <input type="text" class="form-control" placeholder="Email" />
+              </div>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-6 col-12 mb-4 mb-md-0">
+              <!-- nombre input -->
+              <div class="form-outline mb-4">
+                <label for="inputCantidad">Cantidad</label>
+                <input type="number" id="inputCantidad" class="form-control" placeholder="Cantidad" />
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-6 col-12 mb-4 mb-md-0">
+              <!-- nombre input -->
+              <div class="form-outline mb-4">
+                <label for="selectCategoria">Categoría</label>
+                <select class="form-select" id="selectCategoria">
+                  <option value="0">Estudiante</option>
+                  <option value="1">Trainé</option>
+                  <option value="2">Junior</option>
+                </select>
+              </div>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-12 col-12 mb-4 mb-md-0">
+              <!-- nombre input -->
+              <div class="form-outline mb-4">
+                <p class="btn-primary pb-3 pt-3 rounded-1" id="labelPrecio">Total a pagar $</p>
+              </div>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-12 col-md-6">
+            <!-- nombre input -->
+            <div class="mb-4">
+              <button type="submit" class="btn btn-success mb-4 col-12 col-md-12">Borrar</button>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-12 col-md-6 mb-4">
+            <!-- nombre input -->
+            <div class="mb-4">
+              <button onclick="resumenOnclick()" class="btn btn-success mb-4 col-12 col-md-12">Resumen</button>
+            </div>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- ************************************************************************************* -->
+      <!-- Copyright -->
+      <div class="text-center p-3 bg-secondary d-flex verticalizaAlAchicar justify-content-between formatoEspecifico03">
+        <div class="mb-1">
+          <a class="text-dark" href="#"
+            >Preguntas <br />
+            frecuentes</a
+          >
+        </div>
+        <div class="mb-1"><a class="text-dark" href="#">Contáctanos</a></div>
+        <div class="mb-1"><a class="text-dark" href="#">Prensa</a></div>
+        <div class="mb-1"><a class="text-dark" href="#">Conferencias</a></div>
+        <div class="mb-1">
+          <a class="text-dark" href="#">Términos y<br />condiciones</a>
+        </div>
+        <div class="mb-1"><a class="text-dark" href="#">Privacidad</a></div>
+        <div class="mb-1"><a class="text-dark" href="#">Estudiantes</a></div>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- ************************************************************************************* -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
